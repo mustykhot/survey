@@ -1,0 +1,117 @@
+body{
+    background: url(image/image4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Vesper Libre', serif;
+    font-weight: bold;
+    color: white;
+    height: 100vh;
+}
+
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    color: white;
+
+}
+input[type=text],input[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+input[type=submit]:hover{
+    background: #003366;
+    opacity: 0.7;
+}
+
+textarea{
+    height: 99px;
+    width: 290px;
+}
+
+@media only screen and (max-width:400px){
+    textarea{
+        width: 270px;
+    }
+
+}
+@media only screen and (max-width:360px){
+    textarea{
+        width: 250px;
+    }
+
+}
+@media only screen and (max-width:340px){
+    textarea{
+        width: 220px;
+    }
+
+}
+
+@media only screen and (max-width:305px){
+    textarea{
+        width: 190px;
+    }
+
+}
+@media only screen and (max-width:275px){
+    textarea{
+        width: 150px;
+    }
+
+}
+@media only screen and (max-width:230px){
+    textarea{
+        width: 130px;
+    }
+
+}
+@media only screen and (max-width:211px){
+    textarea{
+        width: 100px;
+    }
+
+}
+@media only screen and (max-width:180px){
+    textarea{
+        width: 70px;
+    }
+    h2{
+        font-size: smaller;
+    }
+
+}
